@@ -1,3 +1,4 @@
+// COLORS
 $color-primary-dark: #28b485;
 $color-primary: #55c57a;
 $color-primary-light: hsl(111, 55%, 64%);
@@ -8,6 +9,10 @@ $color-gray-light: #f7f7f7;
 $color-white: #fff;
 $color-black: #000;
 
+// FONT
+$default-font-size: 1.6rem;
+
+// GRID
 $grid-max-width: 114rem;
 $grid-margin-bottom: 4rem;
-$grid-gutter: 8rem;
+$grid-gutter: 6rem;

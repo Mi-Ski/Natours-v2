@@ -1,8 +1,7 @@
 .row {
 	max-width: $grid-max-width;
-	background-color: #ddd;
+	// background-color: #ddd;
 	margin: 0 auto;
-	color: $color-black;
 
 	&:not(:last-child) {
 		//top: 0, left-right: auto centered, margin-bottom: 40px;
@@ -12,7 +11,7 @@
   // ^ = starts with, * = contains, $ = ends with; 
 	[class^='col-'] {
 		float: left;
-		background-color: #ff7777;
+		// background-color: #ff7777;
 
 		&:not(:last-child) {
 			margin-right: $grid-gutter;
@@ -51,11 +50,11 @@
 		// 		<div class="col-1-of-2">col-1-of-2</div>
 		// 	</div>
 
-		// 	<div class="row">
-		// 		<div class="col-1-of-3">col-1-of-3</div>
-		// 		<div class="col-1-of-3">col-1-of-3</div>
-		// 		<div class="col-1-of-3">col-1-of-3</div>
-		// 	</divt>
+			// <div class="row">
+			// 	<div class="col-1-of-3">col-1-of-3</div>
+			// 	<div class="col-1-of-3">col-1-of-3</div>
+			// 	<div class="col-1-of-3">col-1-of-3</div>
+			// </divt>
 			
 		// 	<div class="row">
 		// 		<div class="col-1-of-3">col-1-of-3</div>
