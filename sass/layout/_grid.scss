@@ -2,6 +2,8 @@
 	max-width: $grid-max-width;
 	// background-color: #ddd;
 	margin: 0 auto;
+	@include clearfix;
+
 
 	&:not(:last-child) {
 		//top: 0, left-right: auto centered, margin-bottom: 40px;
@@ -18,7 +20,6 @@
 		}
 	}
 
-	@include clearfix;
 
 	.col-1-of-2,
 	.col-2-of-4 {

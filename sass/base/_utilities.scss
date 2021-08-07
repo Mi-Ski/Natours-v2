@@ -13,3 +13,14 @@
     margin-bottom: 8rem;
   }
 }
+.u-margin-top {
+  &-small {
+    margin-top: 1.2rem;
+  }
+  &-medium {
+    margin-top: 4rem;
+  }
+  &-big {
+    margin-top: 8rem;
+  }
+}

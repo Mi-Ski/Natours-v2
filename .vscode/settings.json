@@ -80,7 +80,7 @@
 		"**/vendors": true
 	},
 	"editor.wordWrapColumn": 70,
-	"liveServer.settings.port": 5500,
+	"liveServer.settings.port": 5501,
 	"editor.insertSpaces": true,
 	"editor.tabSize": 2,
 	"[javascript]": {
