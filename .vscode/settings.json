@@ -34,6 +34,12 @@
 		"[Monokai Pro (Filter Spectrum)]": {
 			// "editorLineNumber.foreground": "#9fffc4",
 			"editorLineNumber.activeForeground": "#FCE566"
+		},
+		"[Oceanic Next (dimmed bg)]": {
+			"statusBar.background": "#333333",
+			"statusBar.noFolderBackground": "#333333",
+			"statusBar.debuggingBackground": "#263238",
+			"editor.lineHighlightBackground": "#ffffff00"
 		}
 	},
 
@@ -79,14 +85,15 @@
 		"**/themes": true,
 		"**/vendors": true
 	},
-	"editor.wordWrapColumn": 70,
+	"editor.wordWrapColumn": 120,
 	"liveServer.settings.port": 5501,
 	"editor.insertSpaces": true,
-	"editor.tabSize": 2,
+	"editor.tabSize": 4,
 	"[javascript]": {
 		"editor.tabSize": 2
 	},
 	"editor.wordWrap": "bounded",
+	"editor.fontSize": 16,
 	"diffEditor.wordWrap": "on",
-	"color-highlight.languages": [ "!main.scss" ]
+	"color-highlight.languages": ["!main.scss"]
 }
