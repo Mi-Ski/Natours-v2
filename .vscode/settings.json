@@ -36,6 +36,7 @@
 			"editorLineNumber.activeForeground": "#FCE566"
 		},
 		"[Oceanic Next (dimmed bg)]": {
+			"editorLineNumber.activeForeground": "#f7c353",
 			"statusBar.background": "#333333",
 			"statusBar.noFolderBackground": "#333333",
 			"statusBar.debuggingBackground": "#263238",
@@ -93,7 +94,7 @@
 		"editor.tabSize": 2
 	},
 	"editor.wordWrap": "bounded",
-	"editor.fontSize": 16,
+	"editor.fontSize": 15,
 	"diffEditor.wordWrap": "on",
 	"color-highlight.languages": ["!main.scss"]
 }
