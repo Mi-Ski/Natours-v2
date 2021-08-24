@@ -21,7 +21,7 @@
 
 	& > * {
 		transform: skewX(12deg);
-
+	
 		@include respond(phone) {
 			transform: skewX(0);
 		}
@@ -30,14 +30,20 @@
 	&__shape {
 		height: 15rem;
 		width: 15rem;
-		// background-color: blueviolet;
-		// border-radius: 100%;
+		overflow: hidden;
+		border-radius: 50%;
 
-		float: left;
-		shape-outside: circle(50%);
-		clip-path: circle(50%);
-		transform: translateX(-3rem) skewX(12deg);
 		position: relative;
+		float: left;
+		transform: translateX(-3rem) skewX(12deg);
+
+		@supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+			-webkit-clip-path: circle(50%);
+			clip-path: circle(50%);
+			-webkit-shape-outside: circle(50%);
+			shape-outside: circle(50%);
+			border-radius: none;
+		}
 
 		@include respond(phone) {
 			transform: translateX(-3rem) skewX(0);

@@ -73,20 +73,20 @@
 		}
 	],
 
-	"files.exclude": {
-		".gitignore": true,
-		"**/ErrorBoundary": true,
-		"config": true,
-		"node_modules": true,
-		"package-lock.json": true,
-		"package.json": true,
-		"public": true,
-		"scripts": true,
-		"README.md": true,
-		"**/themes": true,
-		"**/vendors": true
-	},
-	"editor.wordWrapColumn": 220,
+	// "files.exclude": {
+	// 	".gitignore": true,
+	// 	"**/ErrorBoundary": true,
+	// 	"config": true,
+	// 	"node_modules": true,
+	// 	"package-lock.json": true,
+	// 	"package.json": true,
+	// 	"public": true,
+	// 	"scripts": true,
+	// 	"README.md": true,
+	// 	"**/themes": true,
+	// 	"**/vendors": true
+	// },
+	"editor.wordWrapColumn": 120,
 	"liveServer.settings.port": 5501,
 	"editor.insertSpaces": true,
 	"editor.tabSize": 4,
